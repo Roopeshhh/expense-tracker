@@ -26,3 +26,47 @@
 .transaction > strong {
   font-size: 16px;
 }
+.app {
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.app:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 25px 60px rgba(15, 23, 42, 0.12);
+}
+
+.summary-card {
+  transition: transform 0.2s ease;
+}
+
+.summary-card:hover {
+  transform: translateY(-3px);
+}
+
+.summary-card strong {
+  display: block;
+  margin-top: 4px;
+}
+
+.transaction {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.transaction:hover {
+  transform: translateX(3px);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+}
+
+button {
+  transition:
+    background 0.2s ease,
+    transform 0.15s ease;
+}
+
+button:active {
+  transform: scale(0.97);
+}
